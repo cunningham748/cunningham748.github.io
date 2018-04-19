@@ -21,7 +21,14 @@
 </head>
 
 <body>
-
+    <p>Developed by:<br>Brianna Cunningham, 2018<br>The Ohio State University, Department of Geography<br>Prof. Morteza: Geography 5201 </p>
+    <!-- Year Slider -->
+    <p>Select a year:
+        <span id="year"></span>
+        <input type="range" min="1980" max="2000" value="2000" step="10" id="myRange">
+        <!-- Reset Map Button -->
+        <button id="reset" onclick="resetLayers(),resetMap()">Reset Map</button>
+    </p>
     <div class="grid-container">
         <!-- Column 1 -->
         <!-- Religion Title -->
@@ -45,13 +52,6 @@
         <!-- Education Map -->
         <div id="educationMap"></div>
     </div>
-    <!-- Year Slider -->
-    <p>Select a year:
-        <span id="year"></span>
-        <input type="range" min="1980" max="2000" value="2000" step="10" id="myRange">
-        <!-- Reset Map Button -->
-        <button id="reset" onclick="resetLayers(),resetMap()">Reset Map</button>
-    </p>
 </body>
 <!-- JavaScript -->
 <script>
