@@ -17,7 +17,7 @@
 }
 #guide{
     width: 50%;
-    position: sticky;
+    right:50%;
 }
 html, body { 
     width: 100%; 
