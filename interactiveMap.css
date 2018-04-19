@@ -12,12 +12,11 @@
 #name{
     width: 50%;
     left: 50%;
-    text-align: right;
-    position: relative;
+    float:right;
 }
 #guide{
     width: 50%;
-    right:50%;
+    float: left;
 }
 html, body { 
     width: 100%; 
