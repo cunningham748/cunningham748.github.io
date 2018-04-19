@@ -11,14 +11,15 @@
   }
 #name{
     width: 50%;
-    left: 50%;
     float:right;
-         text-align: right;
+    text-align: right;
+    right:5px;
 
 }
 #guide{
     width: 50%;
     float: left;
+    left:5px;
 }
 html, body { 
     width: 100%; 
