@@ -19,6 +19,9 @@ html, body {
 h4{
     display: inline;
 }
+h1{
+            text-align: center;
+}
 #slider {
         text-align: center;
 }
