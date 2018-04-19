@@ -19,8 +19,8 @@ html, body {
 h4{
     display: inline;
 }
-p{
-    text-align: center;
+#slider {
+        text-align: center;
 }
 #reset{
     right:75%;
